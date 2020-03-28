@@ -1,0 +1,9 @@
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\bin\Debug\FaceRecognitionPCA.exe.config
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\bin\Debug\FaceRecognitionPCA.exe
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\bin\Debug\FaceRecognitionPCA.pdb
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\obj\Debug\FaceRecognitionPCA.csprojAssemblyReference.cache
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\obj\Debug\FaceRecognitionPCA.Form1.resources
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\obj\Debug\FaceRecognitionPCA.Properties.Resources.resources
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\obj\Debug\FaceRecognitionPCA.csproj.GenerateResource.cache
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\obj\Debug\FaceRecognitionPCA.exe
+C:\Users\chris\Documents\UNIVERSITY OF BRIDGEPORT\2020SP Semester\CPEG 585 - Computer Vision\Assignment 7 - PCA\FaceRecognitionPCA\FaceRecognitionPCA\obj\Debug\FaceRecognitionPCA.pdb
