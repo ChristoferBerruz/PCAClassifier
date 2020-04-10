@@ -1,6 +1,6 @@
 # PCAClassifier
 PCA Classification Algorithm using the ATT Dataset.
 
-Currently working on finding the best match and returning accuracy.
+Supports Euclidean Distance, Projection; KNN and ClossestNeighbor for Classification. Current accuracy: 88.5%.
 
 Supports visualization of Eigen Faces.
