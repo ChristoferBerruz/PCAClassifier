@@ -54,6 +54,13 @@
             this.lblTestImage = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.picEigenFace5 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblScore2 = new System.Windows.Forms.Label();
+            this.lblScore3 = new System.Windows.Forms.Label();
+            this.lblScore4 = new System.Windows.Forms.Label();
+            this.lblScore5 = new System.Windows.Forms.Label();
+            this.lblScore6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picMeanFace)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEigenFace1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEigenFace2)).BeginInit();
@@ -68,6 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBestMatch4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBestMatch5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBestMatch6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEigenFace5)).BeginInit();
             this.SuspendLayout();
             // 
             // picMeanFace
@@ -224,6 +232,7 @@
             this.btnComputeAccuracy.TabIndex = 16;
             this.btnComputeAccuracy.Text = "Compute Accuracy";
             this.btnComputeAccuracy.UseVisualStyleBackColor = true;
+            this.btnComputeAccuracy.Click += new System.EventHandler(this.btnComputeAccuracy_Click);
             // 
             // lblScore1
             // 
@@ -306,11 +315,82 @@
             this.label8.TabIndex = 25;
             this.label8.Text = "Reconstructed\r\nfrom Eigen Faces";
             // 
+            // picEigenFace5
+            // 
+            this.picEigenFace5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picEigenFace5.Location = new System.Drawing.Point(881, 378);
+            this.picEigenFace5.Name = "picEigenFace5";
+            this.picEigenFace5.Size = new System.Drawing.Size(162, 186);
+            this.picEigenFace5.TabIndex = 26;
+            this.picEigenFace5.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(915, 567);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(101, 17);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "Eigen Vector 5";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // lblScore2
+            // 
+            this.lblScore2.AutoSize = true;
+            this.lblScore2.Location = new System.Drawing.Point(860, 122);
+            this.lblScore2.Name = "lblScore2";
+            this.lblScore2.Size = new System.Drawing.Size(46, 17);
+            this.lblScore2.TabIndex = 28;
+            this.lblScore2.Text = "label2";
+            // 
+            // lblScore3
+            // 
+            this.lblScore3.AutoSize = true;
+            this.lblScore3.Location = new System.Drawing.Point(960, 120);
+            this.lblScore3.Name = "lblScore3";
+            this.lblScore3.Size = new System.Drawing.Size(46, 17);
+            this.lblScore3.TabIndex = 29;
+            this.lblScore3.Text = "label9";
+            // 
+            // lblScore4
+            // 
+            this.lblScore4.AutoSize = true;
+            this.lblScore4.Location = new System.Drawing.Point(751, 259);
+            this.lblScore4.Name = "lblScore4";
+            this.lblScore4.Size = new System.Drawing.Size(54, 17);
+            this.lblScore4.TabIndex = 30;
+            this.lblScore4.Text = "label10";
+            // 
+            // lblScore5
+            // 
+            this.lblScore5.AutoSize = true;
+            this.lblScore5.Location = new System.Drawing.Point(860, 259);
+            this.lblScore5.Name = "lblScore5";
+            this.lblScore5.Size = new System.Drawing.Size(54, 17);
+            this.lblScore5.TabIndex = 31;
+            this.lblScore5.Text = "label11";
+            // 
+            // lblScore6
+            // 
+            this.lblScore6.AutoSize = true;
+            this.lblScore6.Location = new System.Drawing.Point(962, 259);
+            this.lblScore6.Name = "lblScore6";
+            this.lblScore6.Size = new System.Drawing.Size(54, 17);
+            this.lblScore6.TabIndex = 32;
+            this.lblScore6.Text = "label12";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1076, 610);
+            this.Controls.Add(this.lblScore6);
+            this.Controls.Add(this.lblScore5);
+            this.Controls.Add(this.lblScore4);
+            this.Controls.Add(this.lblScore3);
+            this.Controls.Add(this.lblScore2);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.picEigenFace5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lblTestImage);
@@ -353,6 +433,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBestMatch4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBestMatch5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBestMatch6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEigenFace5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -386,6 +467,13 @@
         private System.Windows.Forms.Label lblTestImage;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox picEigenFace5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblScore2;
+        private System.Windows.Forms.Label lblScore3;
+        private System.Windows.Forms.Label lblScore4;
+        private System.Windows.Forms.Label lblScore5;
+        private System.Windows.Forms.Label lblScore6;
     }
 }
 
